@@ -28,7 +28,7 @@ namespace OniFactory.Game.Pool
 		private bool _stopScoreUpdate = false;
 		private bool _colourBallSunk = false;
 		private bool _cueBallSunk = false;
-		private Vector3 _direction;
+		private Vector3 _direction = Vector3.zero;
 
 		public override void HasAwake()
 		{
@@ -145,6 +145,9 @@ namespace OniFactory.Game.Pool
 		/// <param name="force">Force.</param>
 		private void OnForceApplied(float force)
 		{
+			if (_direction == Vector3.zero)
+				_direction = new Vector3(0, 0, 1);
+			
 			ApplyForceToCueBall(force * ShotForceMultiplier, _direction);
 			CueStick.DisplayToggle(false);
 		}
