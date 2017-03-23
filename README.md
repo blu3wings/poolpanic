@@ -6,7 +6,7 @@ point. The game ends when there are no more colour balls on the table. Player wi
 The purpose of this project is to demonstrate that by inheriting a base class, you can create custom behaviour to extend the game.
 This is not a complete pool game.
 
-# Important classes and how it's being used
+# Important classes
 
 ### PoolGameBase.cs
 This is the base class for the pool game. It contains methods for tracking balls status, setting up game's basic settings, 
