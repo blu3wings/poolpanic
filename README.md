@@ -22,7 +22,7 @@ This is not a complete pool game.
 
 # How to play
 1. Click on the "Let's get it started" button to begin.
-2. To move the aim guide line, use the left mouse button click, hold and move the mouse. Release the mouse button to stop.
+2. To move the aim guide line, use the left mouse button click, hold and move the mouse. Release the mouse button to stop. If the top and button UI start to disappear, not a problem, it is intended that way to make more room for you to move your mouse cursor around.
 3. To shoot, click and move the slider button at the bottom of the screen to set the shot power, release to shoot. To cancel the shot, move the slider all the way to the left.
 4. At the end of the game, click on the "Play again" button to restart the game.
 
@@ -76,5 +76,4 @@ This class handles the player's score and notify the player's turn.
 1. Cue stick rotates differently depending on where your mouse cursor position is when you initiate the move.
 2. At the start of the game, if you try to shoot immediately, the cue will not move. This is caused by missing direction vector.
 
-Created by Danny Chow
-2017 Oni Factory
+Created by Danny Chow // 2017 Oni Factory
