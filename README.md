@@ -6,6 +6,23 @@ point. The game ends when there are no more colour balls on the table. Player wi
 The purpose of this project is to demonstrate that by inheriting a base class, you can create custom behaviour to extend the game.
 This is not a complete pool game.
 
+# Getting Started
+1. Setup
+2. How to play
+3. Settings and Parameters
+4. Important classes
+5. Custom classes
+6. Known issues
+
+# Setup
+1. Clone [this reposity](https://github.com/blu3wings/poolpanic)
+2. Open SimplePool game in Unity3D Ver 5.5
+3. Go to File -> Build Settings, switch to Android platform (stand alone PC and Mac will put the UI alignment out of position)
+4. Run the game.
+
+# How to play
+
+
 # Important classes
 
 ### PoolGameBase.cs
@@ -31,6 +48,20 @@ The UIBase class contains commonly used methods by the UI elements. In this exam
 # Custom classes in this project
 
 ### CueStick.cs
+This class handles the aim guide line and the cue stick rotation. Each time the rotation of the cue stick is changed, SimplePool class will be notified of the direction.
+
+### ShotSliderPanel.cs
+The ShotSliderPanel applies the force to the PoolBall object by moving the slider. 
+
+### GameResetPanel.cs
+The GameResetPanel displays game result message when the game ends. Clicking on the button in the panel will reset the game to its orginal state and the game can be played again.
+
+### GameStartPanel.cs
+Self explanatory, this class handles input to start the game.
+
+### PlayerPanel.cs
+This class handles the player's score and notify the player's turn.
+
   
 
 
