@@ -74,6 +74,6 @@ This class handles the player's score and notify the player's turn.
 
 # Known Issues
 1. Cue stick rotates differently depending on where your mouse cursor position is when you initiate the move.
-2. At the start of the game, if you try to shoot immediately, the cue will not move. This is caused by missing direction vector.
+2. At the start of the game, if you try to shoot immediately, the cue will not move. This is caused by missing direction vector.[Fixed]
 
 Created by Danny Chow // 2017 Oni Factory
