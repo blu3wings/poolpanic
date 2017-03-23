@@ -21,7 +21,17 @@ This is not a complete pool game.
 4. Run the game.
 
 # How to play
+1. Click on the "Let's get it started" button to begin.
+2. To move the aim guide line, use the left mouse button click, hold and move the mouse. Release the mouse button to stop.
+3. To shoot, click and move the slider button at the bottom of the screen to set the shot power, release to shoot. To cancel the shot, move the slider all the way to the left.
+4. At the end of the game, click on the "Play again" button to restart the game.
 
+# Settings and Parameters (Name in hierarchy)
+1. Velocity Decay Rate - 0 to 1. This changes how much speed the ball will lose as it travel across the table. The closer it's to 0, the faster it will stop. (SimplePool)
+2. Bounce Threshold - This dictates how much velocity is required for an object to bounce off each other. The higher the number, the faster an object needs to travel. It is set to 0.1 as default. (SimplePool)
+3. Shot Force Multiplier - This value multiplies the value from the shot slider. The higher the value, more force is applied to the cue ball. (SimplePool)
+4. Cue stick sensitivity - The higher the value, the more sensitive the cue stick will get. (CueStick)
+5. Points - Points to award to a player each time the ball goes into the pocket. (ColourBall #)
 
 # Important classes
 
@@ -62,23 +72,4 @@ Self explanatory, this class handles input to start the game.
 ### PlayerPanel.cs
 This class handles the player's score and notify the player's turn.
 
-  
-
-
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Known Issues
